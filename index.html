@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mastering JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>JavaScript Fundamentals Demo</h1>
+
+  <section>
+    <h2>Part 1: Basics</h2>
+    <p id="basicOutput">Waiting for input...</p>
+    <button onclick="checkAge()">Check Age</button>
+  </section>
+
+  <section>
+    <h2>Part 2: Functions</h2>
+    <p>Enter two numbers:</p>
+    <input type="number" id="num1" placeholder="First number">
+    <input type="number" id="num2" placeholder="Second number">
+    <button onclick="showSum()">Add Numbers</button>
+    <p id="sumOutput"></p>
+  </section>
+
+  <section>
+    <h2>Part 3: Loops</h2>
+    <button onclick="countdown()">Start Countdown</button>
+    <p id="countdownOutput"></p>
+  </section>
+
+  <section>
+    <h2>Part 4: DOM Manipulation</h2>
+    <button onclick="toggleText()">Toggle Message</button>
+    <p id="toggleText">Hello, I’m dynamic text!</p>
+
+    <button onclick="addListItem()">Add List Item</button>
+    <ul id="dynamicList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
